@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="HMY"
+config/name="刮刮乐"
 run/main_scene="res://刮刮乐/主场景.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 
@@ -20,9 +20,9 @@ GGL="*res://刮刮乐/自动加载.gd"
 
 [display]
 
-window/size/viewport_width=2388
+window/size/viewport_width=1980
 window/size/viewport_height=1080
-window/size/window_width_override=1194
+window/size/window_width_override=990
 window/size/window_height_override=540
 window/stretch/mode="canvas_items"
 window/main_scene="res://测试/7图像渲染/control.tscn"
