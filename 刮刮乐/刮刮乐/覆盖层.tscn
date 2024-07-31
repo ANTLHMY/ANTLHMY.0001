@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://bjcmyk37yr3u3"]
 
-[ext_resource type="Shader" path="res://刮刮乐/主场景.gdshader" id="1_rjnb0"]
+[ext_resource type="Shader" path="res://测试/8刮刮乐/主场景.gdshader" id="1_rjnb0"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_jntd0"]
 shader = ExtResource("1_rjnb0")

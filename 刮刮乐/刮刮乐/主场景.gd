@@ -2,7 +2,7 @@ extends Control
 
 
 @onready var 覆盖层: TextureRect = $"Control/覆盖层"
-var 画笔图像 = preload("res://图片/圆形.png")
+var 画笔图像 = preload("res://资源/图片/圆形256.png")
 var 上一帧鼠标坐标=0
 var 当前鼠标坐标=0
 var 鼠标键按下:=false
@@ -18,7 +18,7 @@ var 当前刮刮乐纹理: ImageTexture
 
 func _ready() -> void:
 	# 加载原始图像并创建纹理 
-	var 原始图像 = preload("res://图片/刮刮乐04.png")
+	var 原始图像 = preload("res://资源/图片/刮刮乐04.png")
 	原始刮刮乐纹理 = ImageTexture.create_from_image(原始图像)
 	画笔图像.resize(50,50)
 	GGL.开始.connect(初始化刮刮乐.bind())

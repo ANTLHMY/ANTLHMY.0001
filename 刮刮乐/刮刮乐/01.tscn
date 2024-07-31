@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://brm2vy3nam68g"]
 
-[ext_resource type="Script" path="res://刮刮乐/01.gd" id="1_dv1id"]
+[ext_resource type="Script" path="res://测试/8刮刮乐/01.gd" id="1_dv1id"]
 
 [node name="01" type="Control"]
 custom_minimum_size = Vector2(75, 75)

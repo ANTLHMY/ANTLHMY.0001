@@ -40,7 +40,7 @@ func 结束():
 		var 单位=GGL.单位
 		GGL.单位+=int(label2.text)
 		GGL.改变.emit()
-		GGL.print提示("%d +中奖%d单位 = %d"%[单位,int(label2.text),GGL.单位])
+		GGL.print提示("%d +中奖%d单位 = %d"%[单位,int(label2.text),GGL.单位],"#00FF00")
 	elif int(str(name))==1:
 		GGL.没有中奖=1
 	elif int(str(name))==25:
